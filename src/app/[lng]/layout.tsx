@@ -19,10 +19,6 @@ const RootLayout = ({
   children: React.ReactNode,
   params:any
 }) => {
-    console.log({
-        lng,
-        dir: dir(lng)
-    })
   return (
     <html lang={lng} dir={dir(lng)}>
       <body className={inter.className}>{children}</body>
